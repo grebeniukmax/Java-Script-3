@@ -11,8 +11,11 @@ console.log(emailEmail)
 const firstName = "My";
 const secondName = "name";
 const thirdName = "is";
-const fullName = firstName + secondName + thirdName + "Viktor" // Але як зробити відступи? //
+const fullName = firstName + " " + secondName + " " + thirdName + " " + "Viktor";
 console.log(fullName);
+
+const fullNameName = `${firstName} ${secondName} ${thirdName} Viktor`
+console.log(fullNameName)
 // Четверте //
 let userName = 'Олександре';
 let payment = 300;
